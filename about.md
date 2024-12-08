@@ -7,7 +7,7 @@ ref: about
 order: 0
 ---
 
-<img src="https://github.com/delvelin/blog/blob/dark/_posts/ilustrasi.webp?raw=true"/>
+<img src="assets/images/ilustrasi.webp"/>
 
 <a href="https://www.linkedin.com/in/hanggaajisayekti/" target="_blank">Hangga Aji Sayekti</a> is a dedicated software engineer from Indonesia with a strong passion for technology and science. With over 15 years of experience in the field since 2008, he has developed deep expertise in Java, Kotlin, and other programming languages. Holding a bachelor’s degree in Mathematics, Hangga combines analytical skills with a keen interest in scientific and computational concepts.
 
