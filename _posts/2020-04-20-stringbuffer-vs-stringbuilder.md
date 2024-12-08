@@ -143,4 +143,4 @@ However, if we are working in a multi-threaded environment and need to ensure th
 
 By understanding these differences, we can choose the right class for the job based on our needs. 
 
-By the way, by using the <a href="https://tubrux.github.io/">Tubrux</a> library, we can easily find non-thread-safe data structures in our project. So we can fix them as early as possible.
+By the way, by using the <a href="https://delvelin.github.io/">delvelin</a> library, we can easily find non-thread-safe data structures in our project. So we can fix them as early as possible.
