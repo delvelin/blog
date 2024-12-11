@@ -25,7 +25,7 @@ author:
 # URL settings
 url: "https://delvelin.github.io" #
 baseurl: "blog/"
-permalink: /:title/
+permalink: /blog/:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
 
