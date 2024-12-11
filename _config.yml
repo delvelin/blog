@@ -1,92 +1,78 @@
+# Welcome to RiinoSite3!
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Delvelin Blog # site title
-description: >- # site description
-  He's writing in Bahasa about web technology and experience as a journal 
-  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
-lang: en-US # default lang
-timezone: Asia/Jakarta # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
-mode: dark # default theme "dark" | "light"
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Riino Site
+email: riino@gmail.com
+remote_theme: sorphwer/jekyll-theme-panda
+description: >- # this means to ignore newlines until "baseurl:",you can add <description>{{ post.content | xml_escape }}</description> in feed.xml.
+  A tech blog site of Riisite3.0, from the story of Nest of Etamine Study, owned by Riino.
+SEOTitle: RiinoSite Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://riino.site" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: hangga
+github_username:  hangga
+github_url: https://github.com/delvelin
+repo_url: https://github.com/delvelin/blog
+permalink: /:year-:month-:day-:title:output_ext
 
-# Profile settings
-author:
-  name: Jekyll Klisé # author name
-  bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
-  username: username # general username
-  github: github_username # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
-
-# URL settings
-url: "https://delvelin.github.io" #
-baseurl: "blog/"
-permalink: /blog/:title/
-google_analytics: # leave it blank if not wish
-fb_appid:
-
-# Collection setting
-collections:
-  posts:
-    output: true
-
-# Markdown settings
 markdown: kramdown
-highlighter: rouge
 kramdown:
-  syntax_highlighter: rouge
+   syntax_highlighter_opts:
+      disable : true
 
-# Default front matter
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: post
-      comments: false
-
-# Jekyll Compose default front matter
-jekyll_compose:
-  post_default_front_matter:
-    modified:
-    tags: []
-    description:
-  draft_default_front_matter:
-    modified:
-    tags: []
-    description:
-
-# Homepage limit posts
-number_of_posts: 5
-
-# Build settings
-# theme: klise
-sass:
-  style: compressed
-
-include:
-  - _redirects
-  - .htaccess
-
-exclude:
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - CHANGELOG.md
-  - README.md
-  - node_modules
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - lighthouse.png
-  - klise-*.gem
-  - klise.gemspec
-
-# Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-postfiles
+- jekyll-remote-theme
+- jekyll-paginate
+- jemoji 
+- jekyll-seo-tag
+
+paginate: 10
+gems: ["jemoji"]
+toc:
+  min_level: 1 # default: 1
+  max_level: 4 # default: 6
+sass:
+    sass_dir: _sass
+    style: compressed
+
+navigation:
+- text: Home
+  url: /index.html
+  layout: home
+- text: Archive
+  url: /archive
+  layout: forarchive
+- text: Albums
+  url: /albums
+  layout: albumlist
+- text: profile
+  url: /about
+  layout: about
+- text : 10-Year Roadmap
+  url: /roadmap
+  layout: default
+
+dropdown_header: BLOG #will only exist if dropdown array below has item(s)
+dropdown:
+- text: Theme
+  url : https://delvelin.github.io/docs
+
+footer_html: <a href="/terms_of_use">Terms of Use |</a><span></span><a href="/privacy_statement/">Privacy Statement</a><script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVCHXDWWQX"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-ZVCHXDWWQX');</script>
+
+footer_text:
+- Designed, Developed,and Deployed by Riino
+- 2012-2023 All Rights Reserved.
+
+hoster_logo: /assets/img/logo_Nest.png
+hoster_logo_link: https://github.com/delvelin
+hoster_logo_alt: Github
+hoster_text:
+- Nest of Etamine - 10th Anniversary
+- 2012-2022
