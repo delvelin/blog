@@ -1,6 +1,7 @@
 ---
 title:  "Setup Delvelin Gradle Plugin"
 layout: post
+categories: media
 ---
 
 ## Overview
