@@ -3,29 +3,26 @@ title:  "Setup Delvelin Gradle Plugin"
 layout: post
 categories: media
 ---
-<!-- excerpt -->
-This article provides a step-by-step guide on setting up the **Delvelin Gradle Plugin**, a tool designed to seamlessly integrate code vulnerability analysis into your Java and Kotlin projects.
-<!-- /excerpt -->
 
-This article provides a step-by-step guide on setting up the **Delvelin Gradle Plugin**, a tool designed to seamlessly integrate code vulnerability analysis into your Java and Kotlin projects. With the Delvelin Gradle Plugin, you can easily configure and run vulnerability scans directly within your Gradle build system. This guide will show you how to add the plugin to your project, configure it using Kotlin or Groovy DSL, and utilize it for local and CI/CD pipeline analysis. Let’s dive into the setup process!
+This article provides a step-by-step guide on setting up the Delvelin Gradle Plugin, a tool designed to seamlessly integrate code vulnerability analysis into your Java and Kotlin projects. With the Delvelin Gradle Plugin, you can easily configure and run vulnerability scans directly within your Gradle build system. This guide will show you how to add the plugin to your project, configure it using Kotlin or Groovy DSL, and utilize it for local and CI/CD pipeline analysis. Let’s dive into the setup process!
 
 ## Add the plugin to your Gradle project.
 
-### **1. Kotlin DSL**
+### 1. Kotlin DSL
 ```kotlin
 plugins {
     id("io.github.hangga.delvelin") version "0.1.1-beta"
 }
 ```
 
-### **2. Groovy DSL**
+### 2. Groovy DSL
 ```groovy
 plugins {
     id 'io.github.hangga.delvelin' version '0.1.1-beta'
 }
 ```
 
-## **Configuration**
+## Configuration
 
 Configure Delvelin using the `delvelin` extension.
 
@@ -37,7 +34,7 @@ delvelin {
 }
 ```
 
-## **Running Delvelin Analyzer**
+## Running Delvelin Analyzer
 
 ### 1. On Local Machine
 
@@ -67,9 +64,9 @@ gradle-scan:
 ```
 
 
-## **Configurations**
+## Configurations
 
-| **Parameter**    | **Type**  | **Default**       | **Description**                                      |
+| Parameter    | Type  | Default       | Description                                      |
 |------------------|-----------|-------------------|------------------------------------------------------|
 | `outputFileFormat`   | `String`  | `LOG`             | `LOG`, `JSON`, `HTML`.               |
 | `showDate`       | `Boolean` | `true`            | Show date in the output.                            |
