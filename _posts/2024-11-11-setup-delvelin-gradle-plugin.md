@@ -3,6 +3,9 @@ title:  "Setup Delvelin Gradle Plugin"
 layout: post
 categories: media
 ---
+<!-- excerpt -->
+This article provides a step-by-step guide on setting up the **Delvelin Gradle Plugin**, a tool designed to seamlessly integrate code vulnerability analysis into your Java and Kotlin projects.
+<!-- /excerpt -->
 
 This article provides a step-by-step guide on setting up the **Delvelin Gradle Plugin**, a tool designed to seamlessly integrate code vulnerability analysis into your Java and Kotlin projects. With the Delvelin Gradle Plugin, you can easily configure and run vulnerability scans directly within your Gradle build system. This guide will show you how to add the plugin to your project, configure it using Kotlin or Groovy DSL, and utilize it for local and CI/CD pipeline analysis. Let’s dive into the setup process!
 
@@ -45,8 +48,7 @@ Run the `delvelinScan` task to analyze your project:
 
 If we are using Intellij IDEA, we can also use the gradle menu in the sidebar:
 
-![Intellij IDEA](https://github.com/hangga/delvelin/blob/main/doc/delvelin-scan-gradle-menu.png?raw=true)
-
+<img width="400" src="https://github.com/hangga/delvelin/blob/main/doc/delvelin-scan-gradle-menu.png?raw=true" alt="sidebar"/>
 
 ### 2. On Gitlab CI
 Add `delvelinScan` gradle task to our pipeline configuration, for example:
