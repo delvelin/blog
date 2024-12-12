@@ -6,6 +6,7 @@ categories: media
 
 This article provides a step-by-step guide on setting up the Delvelin Gradle Plugin, a tool designed to seamlessly integrate code vulnerability analysis into your Java and Kotlin projects. With the Delvelin Gradle Plugin, you can easily configure and run vulnerability scans directly within your Gradle build system. This guide will show you how to add the plugin to your project, configure it using Kotlin or Groovy DSL, and utilize it for local and CI/CD pipeline analysis. Let’s dive into the setup process!
 
+
 ## Add the plugin to your Gradle project.
 
 ### 1. Kotlin DSL
@@ -62,7 +63,6 @@ gradle-scan:
     - main
     - develop
 ```
-
 
 ## Configurations
 
