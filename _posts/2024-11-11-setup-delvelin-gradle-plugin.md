@@ -3,7 +3,7 @@ title:  "Setup Delvelin Gradle Plugin"
 layout: post
 ---
 
-Add the plugin to your Gradle project.
+## Add the plugin to your Gradle project.
 
 ### **1. Kotlin DSL**
 ```kotlin
@@ -44,7 +44,6 @@ If we are using Intellij IDEA, we can also use the gradle menu in the sidebar:
 
 <img width="400" src="https://github.com/hangga/delvelin/blob/main/doc/delvelin-scan-gradle-menu.png?raw=true" alt="sidebar"/>
 
----
 
 ### 2. On Gitlab CI
 Add `delvelinScan` gradle task to our pipeline configuration, for example:
@@ -70,3 +69,7 @@ gradle-scan:
 | `outputFileFormat`   | `String`  | `LOG`             | `LOG`, `JSON`, `HTML`.               |
 | `showDate`       | `Boolean` | `true`            | Show date in the output.                            |
 | `showSaveDialog` | `Boolean` | `false`           | Prompt a save dialog after the scan.                |
+
+## Example Output
+
+<a target="_blank" href="https://delvelin.github.io/docs/vulnerability-report.html">HTML Format</a>
