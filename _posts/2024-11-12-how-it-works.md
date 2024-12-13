@@ -16,9 +16,9 @@ By aligning with ISO/IEC 27001 principles, Delveline helps raise security awaren
 
 **Delveline Code Vulnerability Analysis Workflow**
 
-1. **Input Source Code**
+1. **Setup**
    
-    - **Using Delvelin Plugin** : The user installs the Delveline plugin or library into the 
+    - **<a target="_blank" href="https://delvelin.github.io/blog/setup-delvelin-gradle-plugin/">Using Delvelin Plugin</a>** : The user installs the Delveline plugin or library into the 
       project using Gradle or 
    Maven. If the user chooses to use the Delveline plugin, it will run in Gradle with a task 
    called `delvelinScan`. 
