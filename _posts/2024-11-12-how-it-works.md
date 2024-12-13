@@ -12,7 +12,7 @@ By aligning with ISO/IEC 27001 principles, Delveline helps raise security awaren
 
 ## **How it Works**
 
-![delvelin process](https://github.com/delvelin/blog/blob/master/_posts/how-it-works-hand-write-Photoroom.png?raw=true)
+![delvelin process](https://github.com/delvelin/blog/blob/master/_posts/how-it-works-hand-write-new.png?raw=true)
 
 **Delveline Code Vulnerability Analysis Workflow**
 
