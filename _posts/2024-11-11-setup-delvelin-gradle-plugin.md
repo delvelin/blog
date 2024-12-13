@@ -44,6 +44,8 @@ Run the `delvelinScan` task to analyze your project:
 ./gradlew delvelinScan
 ```
 
+<img width="100%" src="https://delvelin.github.io/assets/img/delvelin-scan-new.gif"/>
+
 If we are using Intellij IDEA, we can also use the gradle menu in the sidebar:
 
 <img width="400" src="https://github.com/hangga/delvelin/blob/main/doc/delvelin-scan-gradle-menu.png?raw=true" alt="sidebar"/>
