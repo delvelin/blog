@@ -71,6 +71,8 @@ By aligning with ISO/IEC 27001 principles, Delveline helps raise security awaren
    After completing the two analysis approaches, the results will be displayed in the form of a LOG, JSON, or HTML, depending on the user's configuration.  
    **Note:** For GitLab CI, only LOG output is available.
 
-## <a href="https://delvelin.github.io/blog/features/">Features of Delvelin</a>
+## Next
 
-## <a href="https://delvelin.github.io/blog/setup-delvelin-gradle-plugin/">Setup Delvelin Gradle Plugin</a>
+## <a target="_blank" href="https://delvelin.github.io/blog/features/">Features of Delvelin >></a>
+
+## <a target="_blank" href="https://delvelin.github.io/blog/setup-delvelin-gradle-plugin/">Setup Delvelin Gradle Plugin >></a>
