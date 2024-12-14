@@ -3,6 +3,22 @@ title:  "How it Works"
 layout: post
 categories: media
 ---
+# Table of Contents
+
+1. [Introduction](#introduction)
+2. [How it Works](#how-it-works)
+   - [Setup](#setup)
+     - [Using Delveline Plugin](#using-delveline-plugin)
+     - [Using Delveline Library](#using-delveline-library)
+     - [Using GitLab CI](#using-gitlab-ci)
+   - [Delveline Analysis with Two Approaches](#delveline-analysis-with-two-approaches)
+     - [Static Analysis for Allowed File Types](#static-analysis-for-allowed-file-types)
+     - [Analyze Libraries/Dependencies Used in the Project](#analyze-libraries-dependencies-used-in-the-project)
+   - [Results Display](#results-display)
+3. [Next](#next)
+   - [Features of Delveline](#features-of-delveline)
+   - [Setup Delveline Gradle Plugin](#setup-delveline-gradle-plugin)
+
 
 ## **Introduction**
 
